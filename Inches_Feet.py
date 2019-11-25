@@ -2,6 +2,9 @@
 # Author - Joseph Nadeau
 # Date - 11/24/2019
 
+import os
+os.system('clear') #Clear the console everytime it runs.
+
 num = 1 # Number varible
 footcount = 0 # feet varible
 inches = 0 # Inches varible
