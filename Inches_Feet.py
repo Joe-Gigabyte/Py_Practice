@@ -1,6 +1,7 @@
 # This is a program to accept user input and convert inches to feet.
 # Author - Joseph Nadeau
 # Date - 11/24/2019
+#################################################################
 
 import os
 os.system('clear') #Clear the console everytime it runs.
