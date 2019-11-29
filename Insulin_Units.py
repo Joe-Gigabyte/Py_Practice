@@ -8,15 +8,35 @@ import os
 os.system('clear')
 
 insulin_units = 0
-calories_grams = 0
+carb_grams = 0
 round_insulin_units = 0
 
-calories_grams = float(input("Enter calorie grams.\n"))
+print("  ********************************")
+print("  *                              *")
+print("  *  Carb Grams to Insulin Unit  *")
+print("  *                              *")
+print("  ********************************")
+print("")
+
+carb_grams = float(input("\tEnter carb grams.\n\n\t\t"))
 
 print("")
 
-insulin_units = calories_grams/15
-print(str(calories_grams) + " = " + str(insulin_units) + " units\n")
+blood_sugar = int(input("\tEnter blood sugar.\n\n\t\t"))
+if(blood_sugar >= 181) and (blood_sugar <= 240):
+    blood_sugar = insulin_units + 1
+    
 
-round_insulin_units = round(insulin_units)
-print("Insulin units rounded to " + str(round_insulin_units))
+elif(blood_sugar >= 241) and (blood_sugar <= 320):
+    blood_sugar = insulin_units + 2
+    
+
+else:
+    (blood_sugar <= 181)
+    blood_sugar = insulin_units + 0
+    
+
+print("")
+insulin_units = carb_grams/15
+print("  " + str(carb_grams) + " carb grams = " + str(round(insulin_units, 2))
+ + " Insulin Units with adjustments of " + str(blood_sugar) + " Insulin units\n")
