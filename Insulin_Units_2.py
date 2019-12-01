@@ -1,5 +1,5 @@
 ##############################################################
-# This a app to convert insulin units based on caloric grams.
+# This a app to convert insulin units based on carbs in grams.
 # Author Joseph Nadeau
 # Date 11/25/2019
 ###############################################################

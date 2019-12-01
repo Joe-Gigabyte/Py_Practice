@@ -20,7 +20,7 @@ if(i <= 16):
             my_pen.forward(50)
             my_pen.right(90)
             my_pen.right(45)
-           # my_pen.right(135)
+            my_pen.right(22.5)
       
 
 
